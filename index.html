@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Puntada Lenta</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="barra-superior">
+        <div class="contenedor-logo-slogan">
+        <div class="slogan">"Vistiendo el futuro... de forma insostenible."</div>
+        <img src="img/logo.jpeg" alt="Logo de la Marca" class="logo">
+        <img src="img/bolsa-de-la-compra.png" alt="Bolsa" class="bolsa">
+    </div>
+    
+    <header>
+        <nav id="menu-superior">
+            <ul>
+                <li><a href="html/CRopaGeneral.html" id="ropa">Ropa</a></li>
+                <li><a href="https://documentacionequipo1.netlify.app/">Dossier</a></li>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
+        <div id="sub-menu-ropa" class="sub-menu">
+            <ul>
+                <li><a href="html/categoria1Tops.html">Tops</a></li>
+                <li><a href="html/categoria2Chamarras.html">Chamarras</a></li>
+                <li><a href="html/categoria3Faldas.html">Sudaderas</a></li>
+                
+            </ul>
+        </div>
+    </header>
+
+    <div id="carrusel-imagenes">
+        <button id="carrusel-prev">‹</button>
+        <div class="carrusel-contenedor">
+            <img src="img/fondo2.jpeg" alt="Imagen 1" class="carrusel-imagen">
+            <img src="img/fondo3.png" alt="Imagen 2" class="carrusel-imagen" style="display: none;">
+        </div>
+        <button id="carrusel-next">›</button>
+    </div>
+    
+    <section id="galeria-productos">
+        <div class="producto"><a href="html/prenda1.html"><img src="img/chamarra.png" alt="Prenda 1"></a></div>
+        <div class="producto"><a href="html/prenda2.html"><img src="img/top2.png" alt="Prenda 2"></a></div>
+        <div class="producto"><a href="html/prenda3.html"><img src="img/faldalarga.png" alt="Prenda 3"></a></div>
+        
+    </section>
+    <section id="galeria-productos">
+        <div class="producto"><a href="html/prenda9.html"><img src="img/falda7.png" alt="Prenda 9"></a></div>
+        <div class="producto"><a href="html/prenda5.html"><img src="img/faldacolores.png" alt="Prenda 5"></a></div>
+        <div class="producto"><a href="html/prenda6.html"><img src="img/sueter.png" alt="Prenda 6"></a></div>
+        
+    </section>
+    <section id="galeria-productos">
+        <div class="producto"><a href="html/prenda7.html"><img src="img/chaleco.png" alt="Prenda 7"></a></div>
+        <div class="producto"><a href="html/prenda8.html"><img src="img/top.png" alt="Prenda 8"></a></div>
+        <div class="producto"><a href="html/prenda4.html"><img src="img/faldaab.jpeg" alt="Prenda 4"></a></div>
+        
+    </section>
+    <section id="galeria-productos">
+        <div class="producto"><a href="html/prenda10.html"><img src="img/pantalon8.png" alt="Prenda 10"></a></div>
+        <div class="producto"><a href="html/prenda11.html"><img src="img/top11.png" alt="Prenda1 11"></a></div>
+        <div class="producto"><a href="html/prenda12.html"><img src="img/blusa12.png" alt="Prenda 12"></a></div>
+        
+    </section>
+
+    <section id="anuncio" class="parallax">
+        <div class="anuncio-contenido">
+            <div class="anuncio-item">
+                <i class="icono-rapido"></i>
+                <h3>ENTREGA RÁPIDA</h3>
+                <p>Tus pedidos en casa en un plazo de 24/48h.</p>
+            </div>
+            <div class="anuncio-item">
+                <i class="icono-segura"></i>
+                <h3>COMPRA SEGURA</h3>
+                <p>Las compra realizadas en nuestra web se realizan de forma segura.</p>
+            </div>
+            <div class="anuncio-item">
+                <i class="icono-pago-seguro"></i>
+                <h3>PAGO SEGURO</h3>
+                <p>Las transacciones de pago se realizan de forma segura.</p>
+            </div>
+            <div class="anuncio-item">
+                <i class="icono-servicio-cliente"></i>
+                <h3>SERVICIO AL CLIENTE</h3>
+                <p>Nuestro servicio de atención al cliente resolverá todas tus dudas.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="dossier">
+        <div class="dossier-contenido">
+            <img src="img/enelestudio.jpg" alt="Imagen Dossier" class="dossier-imagen">
+            <div class="dossier-texto">
+                <h2>TIENDA SATIRICA</h2>
+                <p>“Parece que la tendencia es quien contamina más, y gasta menos.”</p>
+                <a href="https://documentacionequipo1.netlify.app/" class="boton-dossier">LEER MÁS</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div id="datos-contacto">
+            <p>Avenida del Desperdicio, Número 123, Ciudad del Consumo.</p>
+            <p>Teléfono: 01 800 RESIDUOS</p>
+            
+        </div>
+    </footer>
+    <div id="popup-bolsa" class="popup">
+        <div class="popup-contenido">
+            <span class="cerrar-popup">&times;</span>
+            <img src="img/imgpopup2.jpeg" alt="Imagen satírica que no permita comprar" id="imagen-popup-bolsa">
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
