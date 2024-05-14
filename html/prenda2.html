@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle del Producto</title>
+    <link rel="stylesheet" href="../css/styles2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- poner coso de los iconos-->
+</head>
+<body>
+    <div class="barra-superior">
+        <div class="contenedor-logo-slogan">
+        <div class="slogan">"Vistiendo el futuro... de forma insostenible."</div>
+        <img src="../img/logo.jpeg" alt="Logo de la Marca" class="logo">
+        <img src="../img/bolsa-de-la-compra.png" alt="Bolsa" class="bolsa">
+    </div>
+    
+    <header>
+        <nav id="menu-superior">
+            <ul>
+                <li><a href="../html/CRopaGeneral.html">Ropa</a></li>
+                <li><a href="https://documentacionequipo1.netlify.app/">Dossier</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div id="contenido-principal">
+        <!-- Menú lateral -->
+        <aside id="menu-lateral">
+            <h3>CATEGORÍAS</h3>
+            <nav id="menu-categorias">
+                <ul>
+                    <li><a href="../html/categoria1Tops.html">Tops</a></li>
+                    <li><a href="../html/categoria2Chamarras.html">Chamarras</a></li>
+                    <li><a href="../html/categoria3Faldas.html">Faldas</a></li>
+                    <li><a href="../html/categoria4Pantalones.html">Pantalones</a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+
+        <section id="galeria-imagenes">
+            <!-- La imagen principal también tiene la clase 'imagen-galeria' -->
+            <img src="../img/topetiquetas1.jpg" alt="Imagen Principal del Producto" class="imagen-galeria" id="imagen-principal">
+            <div id="imagenes-secundarias">
+                <!-- Cada imagen tiene la clase 'imagen-galeria' para el script JS -->
+                <img src="../img/topetiquetas2.jpg" alt="Imagen 1" class="imagen-galeria">
+                <img src="../img/top2.png" alt="Imagen 2" class="imagen-galeria">
+                <!-- Añadir más imágenes secundarias con la misma clase -->
+            </div>
+            <h1>Descripción</h1>
+        <p>La producción de licra, con su liberación de toxinas durante el proceso, subraya las prácticas ambientalmente irresponsables de las industrias textiles. Este top tubo, confeccionado con licra, presenta un intento de sostenibilidad al reutilizar etiquetas y hilo de prendas anteriores. Las etiquetas y el hilo de colores se obtuvieron de prendas usadas en la falda, lo que refleja un enfoque sostenible hacia la fabricación de ropa. Aunque la licra en sí misma no consume mucha agua en su producción, el reutilizar las etiquetas y el hilo puede ayudar a reducir los residuos textiles y el impacto ambiental general de la prenda.</p>
+        </section>
+        
+
+        <!-- Sección de detalles de compra -->
+        <aside id="detalles-compra">
+            <h2>TOP DE ETIQUETAS</h2>
+            <!-- Descripción corta del producto -->
+            <p class="descripcion-prenda">
+                Este top de tubo fué fabricado con licra y adornado con etiquetas y hilo de colores. La producción de una prenda como esta puede requerir entre 2,540 y 3,230 litros de agua.
+            </p>
+        
+            <!-- Opción de cantidad -->
+            <label for="cantidad">Unidades:</label>
+            <input type="number" id="cantidad" min="1" value="1" step="1">
+        
+            <!-- Botón de compra -->
+            <button id="boton-compra">Añadir a la cesta</button>
+
+            <div class="color-option">
+                <div class="circle color-negro"></div>
+                <span>Color</span>
+            </div>
+
+            <!-- Tipo de tela -->
+            <div class="tipo-tela">
+                <img src="../img/licra.jpg" alt="Tipo de tela" class="imagen-tipo">
+                <div class="info-tipo">
+                    <p> Tipo de tela </p>
+                    <p><strong>Licra</strong></p>
+                </div>
+            </div>
+
+            <!-- Envio gratis -->
+            <div class="envio-gratis">
+                <span class="texto-envio">ENVIO GRATIS</span>
+                <img src="../img/entrega-gratis.png" alt="Imagen" class="imagen-envio">
+            </div>
+
+    <!-- Pop-up para la imagen -->
+    <div id="popup-compra" class="popup">
+        <div class="popup-contenido">
+            <span class="cerrar-popup">&times;</span>
+            <img src="../img/imgpopup.jpeg" alt="Imagen satirica que no permita comprar" id="imagen-popup">
+        </div>
+    </div>
+</aside>
+        
+    </div>
+
+    <!-- Pop-up para la bolcita -->
+    <div id="popup-compra" class="popup">
+        <div class="popup-contenido">
+            <span class="cerrar-popup">&times;</span>
+            <img src="../img/imgpopup.jpeg" alt="Imagen satírica que no permita comprar" id="imagen-popup-2">
+        </div>
+    </div>
+
+    <!-- Pop-up para la imagen -->
+    <div id="popup-imagen" class="popup">
+        <div class="popup-contenido">
+            <span class="cerrar-popup">&times;</span>
+            <img src="ruta/a/imagen-grande.jpg" alt="Imagen Ampliada">
+        </div>
+    </div>
+
+    <footer>
+        <div id="datos-contacto">
+            <p>Avenida del Desperdicio, Número 123, Ciudad del Consumo.</p>
+            <p>Teléfono: 988 247 557</p>
+            <!-- Más datos de contacto -->
+        </div>
+    </footer>
+
+    <script src="../js/scripts2.js"></script>
+</body>
+</html>
